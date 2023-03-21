@@ -8,12 +8,12 @@
 </head>
 <body>
     <form>
-        <label>name</label> <input type="text">
+        <label>name</label> <input type="text" name="name">
         <br>
-        <label>email</label> <input type="text">
+        <label>email</label> <input type="text" name="email">
         <br>
         <label for="password">Password:</label>
-        <input type="password" id="password" minlength="8" required>
+        <input type="password" name="password" id="password" minlength="8" required>
 
     <fieldset>
         <legend>Referrer</legend>
@@ -22,7 +22,7 @@
         <input type="radio" id="None" name="Referrer" checked><label for="None">None</label><br>
     </fieldset>
 
-    <input type="checkbox" name="terms" required><label>I accept the terms of service.</label> 
+    <input type="checkbox"  required><label>I accept the terms of service.</label> 
     <br>
 
     <button type="submit">Register</button>
